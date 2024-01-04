@@ -1,0 +1,10 @@
+order_id,product,quantity,order_status,order_date
+5,Tablet,2,Pending,2023-08-08
+6,Charger,3,Completed,2023-08-08
+7,Phone,1,Failed,2023-08-08
+8,Camera,2,Completed,2023-08-07
+9,Watch,1,Pending,2023-09-07
+10,TV,1,Completed,2023-09-07
+11,Laptop,1,Failed,2023-10-07
+2,Mouse,1,Completed,2023-08-07
+3,Monitor,1,Returned,2023-08-10
