@@ -34,12 +34,17 @@ The project consists of two main components:
 2. **Spark Setup:**
     *  Ensure that you have Spark installed.
     *  Place the Spark script (`snowflake_spark_main.py`) in a location accessible to the Dataproc cluster.
-    
-3. **Google Cloud Platform Setup:**
+
+3. **Jar Files for Spark to connect to Snowflake:**
+    *  The below link of jar files works for `Scala 2.13, 2.12` and `Spark 3.4, 3.3, 3.2`
+    *  [spark-snowflake_2.12-2.12.0-spark_3.3.jar](https://repo1.maven.org/maven2/net/snowflake/spark-snowflake_2.12/2.12.0-spark_3.3/)
+    *  [snowflake-jdbc-3.13.30.jar](https://repo1.maven.org/maven2/net/snowflake/snowflake-jdbc/3.13.30/)
+      
+4. **Google Cloud Platform Setup:**
     *  Configure GCP credentials for Airflow.
     *  Set up a GCS bucket (snowflake_621) for storing daily data files.
     
-4. **Airflow Variable Configuration:**
+5. **Airflow Variable Configuration:**
     *  Set the necessary parameters in the Airflow variables, including input_parameters for dynamic configuration.
 
 
