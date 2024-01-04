@@ -35,7 +35,7 @@ The project consists of two main components:
     *  Ensure that you have Spark installed.
     *  Place the Spark script (`snowflake_spark_main.py`) in a location accessible to the Dataproc cluster.
 
-3. **Jar Files for Spark to connect to Snowflake:**
+3. **Jar Files for Spark to connect with Snowflake:**
     *  The below link of jar files works for `Scala 2.13, 2.12` and `Spark 3.4, 3.3, 3.2`
     *  [spark-snowflake_2.12-2.12.0-spark_3.3.jar](https://repo1.maven.org/maven2/net/snowflake/spark-snowflake_2.12/2.12.0-spark_3.3/)
     *  [snowflake-jdbc-3.13.30.jar](https://repo1.maven.org/maven2/net/snowflake/snowflake-jdbc/3.13.30/)
